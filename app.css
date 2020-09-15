@@ -44,4 +44,5 @@ section:nth-child(even) {
   left: 0;
   right: 0;
   z-index: 10;
+  padding: 0;
 }
