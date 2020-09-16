@@ -49,3 +49,11 @@ section:nth-child(even) {
 #c-navbar li {
   display: inline;
 }
+
+#event {
+  border: 1px solid black;
+}
+
+#organization {
+  border: 1px solid black;
+}
