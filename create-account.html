@@ -11,6 +11,7 @@
       <a href="./index.html"><h1>Never Lost</h1></a>
     </header>
     <nav>
+      <p>In this navbar, users will be redirected to the proper routes</p>
       <ul id="c-navbar">
         <li>
           <a href="./index.html">Home</a>
@@ -25,9 +26,13 @@
           <a href="./organizations.html">Organizations</a>
         </li>
         <li>
-          {/* this is if logged in log in and Create account tab if not logged
-          in*/}
-          <a href="/user.html">Your Account</a>
+          <a href="/login-create.html"
+            >Login/Create account - If not logged in</a
+          >
+          <a href="/user.html">Your Account - if logged in</a>
+          <a href="/index.html"
+            >Logout - if Logged in - will redirect to landing page</a
+          >
         </li>
       </ul>
     </nav>
@@ -39,17 +44,28 @@
         <p>Form exists here to create an account.</p>
         <p>Includes:</p>
         <ul>
-          <li>username</li>
-          <li>email</li>
-          <li>first and last name</li>
-          <li>zip code</li>
-          <li>password and confirm password</li>
+          <li>username (required)</li>
+          <li>email (required)</li>
+          <li>first and last name (not required)</li>
+          <li>
+            zip code (not required but recommended, and will explain why
+            recommended)
+          </li>
+          <li>password and confirm password (required)</li>
           <li>
             a checkbox asking if they want to be able to be seen by other users
+            (required) (some information will be provided about what this means)
           </li>
         </ul>
-        <p>If they press submit, they are taken to their user page</p>
-        <a href="./user.html"><button></button></a>
+        <p>
+          If they press submit, and they fill in all the required information,
+          their user model is created and they are taken to their user page
+        </p>
+        <p>
+          If the user doesn't submit some answer for all required fields,
+          messages will display informing the user that they need to.
+        </p>
+        <a href="./user.html"><button>Submit</button></a>
       </section>
     </main>
   </body>
