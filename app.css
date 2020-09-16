@@ -45,3 +45,7 @@ section:nth-child(even) {
   right: 0;
   padding: 0;
 }
+
+#c-navbar li {
+  display: inline;
+}

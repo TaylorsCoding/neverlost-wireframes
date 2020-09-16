@@ -10,7 +10,27 @@
     <header id="title">
       <a href="./index.html"><h1>Never Lost</h1></a>
     </header>
-    <nav>Navbar</nav>
+    <nav>
+      <ul id="c-navbar">
+        <li>
+          <NavLink to="./index.html">Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="./events.html">Events</NavLink>
+        </li>
+        <li>
+          <NavLink to="./chat.html">Chat</NavLink>
+        </li>
+        <li>
+          <NavLink to="./organizations.html">Organizations</NavLink>
+        </li>
+        <li>
+          {/* this is if logged in log in and Create account tab if not logged
+          in*/}
+          <NavLink to="/user.html">Your Account</NavLink>
+        </li>
+      </ul>
+    </nav>
     <header>
       <h2>Create Pet Page</h2>
     </header>
