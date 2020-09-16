@@ -11,6 +11,7 @@
       <a href="./index.html"><h1>Never Lost</h1></a>
     </header>
     <nav>
+      <p>In this navbar, users will be redirected to the proper routes</p>
       <ul id="c-navbar">
         <li>
           <a href="./index.html">Home</a>
@@ -36,39 +37,33 @@
       </ul>
     </nav>
     <header>
-      <h2>Event Page</h2>
+      <h2>Create Organization Page</h2>
     </header>
     <main>
       <section>
-        <h2>Event information</h2>
+        <p>Form exists here to create an organization.</p>
+        <p>Includes:</p>
         <ul>
-          <li>Title</li>
-          <button>change (if creator)</button>
-          <li>type of event</li>
-          <li>zipcode</li>
-          <li>description</li>
-          <button>change (if creator)</button>
-          <li>date published</li>
-          <li>animal (if applicable)</li>
-          <li>organization (if applicable)</li>
+          <li>Name (required)</li>
+          <li>website (required)</li>
+          <li>phone number (required)</li>
+          <li>zip code (required)</li>
         </ul>
-      </section>
-      <section>
-        <h2>List of Posts</h2>
         <p>
-          Here will be a list of posts that have been created on this event.
+          If they press submit, and they fill in all the required information,
+          their organization model is created and they are taken to their
+          organization page
         </p>
-        <h3>Post</h3>
-        <a href="./post.html"><button>Post</button></a>
-        By clicking the post, you will be redirected to the post's page.
+        <p>
+          If the user doesn't submit some answer for all required fields,
+          messages will display informing the user that they need to.
+        </p>
+        <p>
+          This organization will not belong to the user. It will remain not
+          owned by any user
+        </p>
+        <a href="./organization.html"><button>Submit</button></a>
       </section>
-      <secion>
-        <h2>Owner: User</h2>
-        <a href="./user.html"><button>Event created by this user</button></a>
-        By clicking this button the user is redirected to the profile page of
-        the user. This section will only be visible if the user enables himself
-        or herself to be seen by other users.
-      </secion>
     </main>
   </body>
 </html>
